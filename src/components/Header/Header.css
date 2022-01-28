@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.header button{
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    box-shadow: 3px 5px 10px lightgray;
+    cursor: pointer;
+}
+.header button:hover{
+    background-color: rgb(204, 134, 4);
+}
+.header ul a{
+    text-decoration: none;
+    color: #000;
+}

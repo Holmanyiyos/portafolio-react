@@ -1,0 +1,53 @@
+.blog{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.blogContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+.articulo{
+    max-width: 300px;
+    margin: auto;
+    position: relative;
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px 25px lightgray;
+    padding-bottom: 20px;
+}
+.articulo .header{
+    width: 100%;
+    height: 220px;
+    background-color: #000;
+}
+.articulo .fecha{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 0.8rem;
+}
+.articulo .fecha i{
+    color: orange;
+    margin: 10px 15px 0 0;
+}
+.articulo .escritor{
+    width: 130px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    bottom: -20px;
+    left: 20px;
+    font-size: 0.8rem;
+}
+.escritor .imagen{
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}

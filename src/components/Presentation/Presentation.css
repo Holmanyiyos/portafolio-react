@@ -1,0 +1,28 @@
+.presentation{
+    display: flex;
+    width: 100%;
+}
+
+.presentation .text{
+    width: 40%;
+}
+.text h2{
+    font-size: 2.5rem;
+}
+.text div{
+    display: flex;
+    align-items: center;
+}
+.text div button{
+    width: 35px;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 0 0;
+    margin-right: 10px;
+}
+.text div button i{
+    font-size: 1.2rem;
+    transform: rotate(45deg);
+}
