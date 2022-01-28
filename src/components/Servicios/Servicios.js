@@ -4,7 +4,7 @@ import "./Servicios.css"
 function Servicios(){
     return(
         <section className="servicios" id="servicios">
-         <h2>Nuestros Servicios</h2>
+         <h2>Mis Servicios</h2>
          <div className="serviciosContainer">
 
              <div className="serviciosItem">
