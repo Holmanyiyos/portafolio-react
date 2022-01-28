@@ -51,6 +51,7 @@
 }
 .servicios__btnContainer button{
     height: 40px;
+    width: 120px;
     background-color: orange;
     color: #fff;
     border: none;

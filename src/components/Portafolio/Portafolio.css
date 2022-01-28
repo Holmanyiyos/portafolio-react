@@ -1,9 +1,9 @@
-.blog{
+.Portafolio{
     width: 100%;
     text-align: center;
     margin-top: 50px;
 }
-.blogContainer{
+.portafolioContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
@@ -46,8 +46,8 @@
 }
 .escritor .imagen{
     background-color: orange;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     margin-right: 5px;
 }

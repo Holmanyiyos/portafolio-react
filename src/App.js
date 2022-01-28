@@ -3,11 +3,12 @@ import './App.css';
 import {Header} from "./components/Header/Header"
 import {Presentation} from "./components/Presentation/Presentation"
 import {Servicios} from "./components/Servicios/Servicios"
-import {Blog} from "./components/Blog/Blog"
+import {Portafolio} from "./components/Portafolio/Portafolio"
+import {Contacto} from "./components/Contacto/Contacto"
 
 function App() {
   return (
-   <React.Fragment>
+   <div className='app'>
      <Header/>
      <Presentation/>
      <Servicios/>
@@ -20,8 +21,17 @@ function App() {
        </div>
        <div className="triangulo"></div>
      </div>
-    <Blog/>
-   </React.Fragment>
+    <Portafolio/>
+
+    <section className='publicidad2'>
+      <h3>Déjame saber sí necesitas hablar sobre tu proyecto.<br/>
+      Estamos disponibles para trabajo freelance.
+      </h3>
+      <h4>Vamos a crear tu página web <i className="fas fa-arrow-up"></i></h4>
+    </section>
+
+    <Contacto/>
+   </div>
   );
 }
 

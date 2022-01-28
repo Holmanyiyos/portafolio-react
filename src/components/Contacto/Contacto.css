@@ -1,0 +1,48 @@
+.contacto{
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+.contacto p{
+    width: 50%;
+    margin: auto;
+    font-size: 1rem;
+}
+.contacto .redesSociales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contacto .redes{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    box-shadow: 2px 2px 25px lightgray;
+}
+.contacto .ulFooter{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ulFooter ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15px;
+    list-style: none;
+    font-size: 1rem;
+}
+.ulFooter ul a{
+    text-decoration: none;
+    color: #000;
+}
+.ulFooter small{
+    font-size: 0.8rem;
+}

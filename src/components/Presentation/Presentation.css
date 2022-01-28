@@ -1,10 +1,15 @@
 .presentation{
+    margin-top: 50px;
     display: flex;
+    align-items: center;
     width: 100%;
 }
-
+.presentation span{
+    color: orange;
+}
 .presentation .text{
     width: 40%;
+    margin-left: 20px;
 }
 .text h2{
     font-size: 2.5rem;
@@ -25,4 +30,11 @@
 .text div button i{
     font-size: 1.2rem;
     transform: rotate(45deg);
+}
+.presentation .image{
+    width: 60%;
+}
+.presentation .image img{
+    width: 80%;
+    max-width: 450px;
 }

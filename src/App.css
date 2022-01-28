@@ -1,6 +1,10 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+.app{
+    max-width: 1200px;
+    margin: auto;
+}
 .publicidad{
     position: relative;
     height: 250px;
@@ -33,6 +37,7 @@
 }
 .publicidad button{
     height: 40px;
+    width: 120px;
     background-color: orange;
     color: #fff;
     border: none;
@@ -44,4 +49,19 @@
 }
 .publicidad .texto h3{
     font-size: 1.8rem;
+}
+
+.publicidad2{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.publicidad2 h4{
+    margin-top: 40px;
+    color: orange;
+}
+.publicidad2 i{
+    transform: rotate(45deg);
 }

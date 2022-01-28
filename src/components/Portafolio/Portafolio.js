@@ -1,16 +1,16 @@
 import React from "react";
-import "./Blog.css"
+import "./Portafolio.css"
 
-function Blog(){
+function Portafolio(){
     return(
-        <section className="blog">
-            <h2>Blog y Noticias</h2>
-            <div className="blogContainer">
+        <section className="Portafolio" id="portafolio">
+            <h2>Portafolio</h2>
+            <div className="portafolioContainer">
 
             <div className="articulo">
                     <div className="header"></div>
                     <div className="fecha">
-                    <i className="far fa-calendar-alt"></i>
+                    <i className="fas fa-wrench"></i>
                     <span>20/01/2022</span>
                     </div>
                     <h2>Título de la noticia o entrada del blog</h2>
@@ -23,7 +23,7 @@ function Blog(){
                 <div className="articulo">
                     <div className="header"></div>
                     <div className="fecha">
-                    <i className="far fa-calendar-alt"></i>
+                    <i className="fas fa-wrench"></i>
                     <span>28/01/2022</span>
                     </div>
                     <h2>Título de la noticia o entrada del blog</h2>
@@ -36,7 +36,7 @@ function Blog(){
                 <div className="articulo">
                     <div className="header"></div>
                     <div className="fecha">
-                    <i className="far fa-calendar-alt"></i>
+                    <i className="fas fa-wrench"></i>
                     <span>1/02/2022</span>
                     </div>
                     <h2>Título de la noticia o entrada del blog</h2>
@@ -51,4 +51,4 @@ function Blog(){
     )
 }
 
-export {Blog}
+export {Portafolio}
