@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import './App.css';
 import icon1 from "./assets/desarrollo-web.png"
 import {Header} from "./components/Header/Header"
@@ -7,7 +8,39 @@ import {Servicios} from "./components/Servicios/Servicios"
 import {Portafolio} from "./components/Portafolio/Portafolio"
 import {Contacto} from "./components/Contacto/Contacto"
 
+
+
 function App() {
+ 
+  const observer = new IntersectionObserver((nodo)=>{
+    const el = document.getElementById("btnUp");
+    nodo.forEach(nodo=>{
+      if (nodo.isIntersecting) {
+        el.classList.remove("mostrar");
+        return;
+      }else{
+        el.classList.add("mostrar");
+      }
+    })
+  })
+ 
+
+  useEffect(()=>{
+    const header = document.getElementById("header")
+    registerNodo(header);
+  })
+
+  const registerNodo = (nodo)=>{
+  observer.observe(nodo)}
+
+  const toUp=()=>{
+    const currentScroll = document.documentElement.scrollTop;
+    if (currentScroll > 0) {
+      window.requestAnimationFrame(toUp)
+      window.scrollTo(0, currentScroll - (currentScroll /10))
+    }
+  }
+
   return (
    <div className='app'>
      <Header/>
@@ -33,6 +66,7 @@ function App() {
     </section>
 
     <Contacto/>
+    <i className="fas fa-chevron-circle-up btnUp" id='btnUp' onClick={toUp}></i>
    </div>
   );
 }

@@ -4,6 +4,7 @@
 .app{
     max-width: 1200px;
     margin: auto;
+    position: relative;
 }
 .publicidad{
     position: relative;
@@ -69,4 +70,27 @@
 }
 .publicidad2 i{
     transform: rotate(45deg);
+}
+
+
+
+
+.btnUp{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: orange;
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    display: none;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mostrar{
+    display: block;
 }
