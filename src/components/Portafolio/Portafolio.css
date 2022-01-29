@@ -9,29 +9,45 @@
     column-gap: 20px;
 }
 .articulo{
-    max-width: 300px;
+    width: 300px;
     margin: auto;
     position: relative;
     border: 1px solid lightgray;
     box-shadow: 3px 3px 25px lightgray;
     padding-bottom: 20px;
 }
+.articulo a{
+    color: #000;
+}
+.articulo a:hover .visitar{
+    background-color: lightcyan;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 20px lightgrey;
+}
 .articulo .header{
     width: 100%;
     height: 220px;
+    overflow: hidden;
     background-color: #000;
+}
+.articulo .header img{
+    width: 100%;
 }
 .articulo .fecha{
     text-align: left;
     margin-left: 30px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 .articulo .fecha i{
     color: orange;
     margin: 10px 15px 0 0;
 }
-.articulo .escritor{
-    width: 130px;
+.articulo .fecha span{
+    font-weight: bold;
+    margin-right: 15px;
+}
+.articulo .visitar{
+    width: 110px;
     height: 35px;
     display: flex;
     align-items: center;
@@ -43,11 +59,22 @@
     bottom: -20px;
     left: 20px;
     font-size: 0.8rem;
+    transition: transform 0.300s linear;
 }
-.escritor .imagen{
-    background-color: orange;
-    width: 28px;
-    height: 28px;
+.visitar .imagen{
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     margin-right: 5px;
+}
+.visitar .imagen i{
+    line-height: 30px;
+    font-size: 1rem;
+    color: orange;
+}
+.articulo .repositorio{
+    left: 170px;
+}
+.articulo .repositorio i{
+    font-size: 1.4rem;
 }

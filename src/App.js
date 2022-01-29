@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import icon1 from "./assets/publicidad1.jpg"
+import icon1 from "./assets/desarrollo-web.png"
 import {Header} from "./components/Header/Header"
 import {Presentation} from "./components/Presentation/Presentation"
 import {Servicios} from "./components/Servicios/Servicios"

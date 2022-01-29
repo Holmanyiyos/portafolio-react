@@ -9,29 +9,29 @@ function Servicios(){
 
              <div className="serviciosItem">
                  <div className="serviciosItem__cabecera">
-                 <div className="img" />
+                 <i className="fas fa-laptop-code img"></i>
                  <h4>Dessarrollo Frontend</h4>
                  </div>
-                 <p>Tareas principales que desarrola un frontend</p>
-                 <i class="fas fa-long-arrow-alt-right"></i>
+                 <p>Convierto diseños en código, diseño la estructura de la web y facilito la navegación del usuario</p>
+                 <i className="fas fa-long-arrow-alt-right"></i>
              </div>
 
              <div className="serviciosItem">
                  <div className="serviciosItem__cabecera">
-                 <div className="img" />
+                 <i className="fas fa-mobile-alt img"></i>
                  <h4>Diseño Responsivo</h4>
                  </div>
-                 <p>Tareas principales de responsive design</p>
-                 <i class="fas fa-long-arrow-alt-right"></i>
+                 <p>Diseñar webs capaces de adaptarse a cualquier dispositivo, sea un celular, tablet o computador</p>
+                 <i className="fas fa-long-arrow-alt-right"></i>
              </div>
 
              <div className="serviciosItem">
                  <div className="serviciosItem__cabecera">
-                 <div className="img" />
+                 <i className="far fa-edit img"></i>
                  <h4>Maquetación</h4>
                  </div>
-                 <p>Tareas principales de un maquetador web </p>
-                 <i class="fas fa-long-arrow-alt-right"></i>
+                 <p>Planificación, conceptualización y organización del contenido de una web</p>
+                 <i className="fas fa-long-arrow-alt-right"></i>
              </div>
            <div className="servicios__btnContainer">
                <button>Explorar Servicios</button>

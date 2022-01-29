@@ -7,9 +7,9 @@ function Contacto(){
             <h3>Vamos a hablar!</h3>
             <p>Siempre estoy abierto a dialogar sobre tu proyecto, para mejorar tu presencia en linea y que destaques en tu sector</p>
             <div className="redesSociales">
-                <div className="redes"></div>
-                <div className="redes"></div>
-                <div className="redes"></div>
+                <a href="https://www.linkedin.com/in/holman-plazas-10047550/" target="_blank" rel="noopener noreferrer"><div className="redes"><i className="fab fa-linkedin"></i></div></a>
+                <a href="https://github.com/Holmanyiyos" target="_blank" rel="noopener noreferrer"><div className="redes"><i className="fab fa-github-square"></i></div></a>
+                <div className="redes"><i className="fas fa-envelope-square"></i></div>
             </div>
             <div className="ulFooter">
                 <ul>
