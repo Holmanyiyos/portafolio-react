@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portafolio-react/static/css/main.8257fd68.css",
+    "main.js": "/portafolio-react/static/js/main.353711ed.js",
+    "static/media/icono.jpg": "/portafolio-react/static/media/icono.bb151deed7564efd7c3f.jpg",
+    "static/media/desarrollo-web.png": "/portafolio-react/static/media/desarrollo-web.310d1aeecaf54e6fda1f.png",
+    "static/media/batatachip.png": "/portafolio-react/static/media/batatachip.5854dc746d3eb0d1b294.png",
+    "static/media/apiclima.png": "/portafolio-react/static/media/apiclima.dc56f936b78083dbf76b.png",
+    "static/media/platzibadges.png": "/portafolio-react/static/media/platzibadges.b10790d16aa949c95ad1.png",
+    "index.html": "/portafolio-react/index.html",
+    "main.8257fd68.css.map": "/portafolio-react/static/css/main.8257fd68.css.map",
+    "main.353711ed.js.map": "/portafolio-react/static/js/main.353711ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8257fd68.css",
+    "static/js/main.353711ed.js"
+  ]
+}
