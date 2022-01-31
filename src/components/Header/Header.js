@@ -12,7 +12,7 @@ function Header(){
                 <a href="#blog"><li>Blog</li></a>
                 <a href="#contacto"><li>Contacto</li></a>
             </ul>
-            <button>Agenda una llamada</button>
+            <a href="mailto:haplazass@hotmail.com"><button>Agenda un espacio</button></a>
         </header>
     )
 }

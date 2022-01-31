@@ -26,6 +26,7 @@
     border: none;
     border-radius: 0 10px 0 0;
     margin-right: 10px;
+    transform: rotate(90deg);
 }
 .text div button i{
     font-size: 1.2rem;
@@ -37,4 +38,22 @@
 .presentation .image img{
     width: 80%;
     max-width: 450px;
+}
+
+
+
+@media (max-width: 700px) {
+    .presentation{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .presentation .text{
+        width: 100%;
+    }
+    .text h2{
+        font-size: 1.5rem;
+    }
+    .presentation .image{
+        width: 100%;
+    }
 }

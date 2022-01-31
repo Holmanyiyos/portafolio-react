@@ -52,7 +52,7 @@ function App() {
        <div className="texto">
          <h3>¿Tienes un proyecto en mente? <br/> No lo pienses y contáctame ahora</h3>
          <p>¿Listo para ser referente en tu sector? hagamos una llamada</p>
-         <button>Contáctame</button>
+         <a href="mailto:haplazass@hotmail.com"><button>Contáctame</button></a>
        </div>
        <div className="triangulo"></div>
      </div>

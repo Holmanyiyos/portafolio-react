@@ -94,3 +94,12 @@
 .mostrar{
     display: block;
 }
+
+@media (max-width: 700px) {
+    .app{
+        width: 100%;
+    }
+    .publicidad{
+        display: none;
+    }
+}

@@ -9,7 +9,7 @@ function Contacto(){
             <div className="redesSociales">
                 <a href="https://www.linkedin.com/in/holman-plazas-10047550/" target="_blank" rel="noopener noreferrer"><div className="redes"><i className="fab fa-linkedin"></i></div></a>
                 <a href="https://github.com/Holmanyiyos" target="_blank" rel="noopener noreferrer"><div className="redes"><i className="fab fa-github-square"></i></div></a>
-                <div className="redes"><i className="fas fa-envelope-square"></i></div>
+                <a href="mailto:haplazass@hotmail.com"><div className="redes"><i className="fas fa-envelope-square"></i></div></a>
             </div>
             <div className="ulFooter">
                 <ul>

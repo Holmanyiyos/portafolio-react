@@ -12,7 +12,7 @@ function Presentation(){
                <p>Hola!, soy Holman Plazas, colombiano y desarrollador frontend con ReactJs, sí estás pensando en crear una página web o actualizar una existente, no te preocupes, yo me encargo.</p>
                <div>
                    <button><i className="fas fa-arrow-up"></i></button>
-                   <p>Contrátame ahora</p>
+                   <p>Descarga mi CV</p>
                </div>
            </div>
            <div className="image">
