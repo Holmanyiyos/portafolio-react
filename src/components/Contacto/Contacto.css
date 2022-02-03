@@ -66,5 +66,8 @@
     .redes i{
         padding-top: 10px;
     }
+    .ulFooter ul{
+        display: none;
+    }
     
 }

@@ -88,6 +88,9 @@
         row-gap: 40px;
     }
     .articulo{
-        width: 100%;
+        width: 99%;
+    }
+    .articulo .repositorio{
+        left: 210px;
     }
 }

@@ -27,3 +27,62 @@
     text-decoration: none;
     color: #000;
 }
+
+
+
+
+@media (max-width: 700px) {
+    .menu_desplegable{
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        top: 15px;
+        right: 8px;
+    }
+    .menu_desplegable .menu_des{
+        background-color: #fff;
+        content: "";
+        height: 5px;
+        border-radius: 10px;
+        margin-top: 7px;
+    }
+    .header a{
+        display: none;
+    }
+    .header h3{
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .header ul{
+        width: 20px;
+        height: 60px;
+        background-color: cornflowerblue;
+        position: relative;
+        border-radius: 25px 0 0 25px;
+        transition: width 0.5s ease-in;
+    }
+    .header ul:hover{
+        width: 45%;
+        height: 70vh;
+        background-color: cornflowerblue;
+        border-radius: 0;
+        position: absolute;
+        right: 0;
+        top: -10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px 0 0 25px;
+    }
+    .header ul:hover a{
+        display: inherit;
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.2rem;
+        border-bottom: 1px solid lightgray;
+    }
+    .header ul:hover .menu_desplegable{
+        display: none;
+    }
+}

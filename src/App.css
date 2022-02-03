@@ -102,4 +102,7 @@
     .publicidad{
         display: none;
     }
+    .btnUp{
+        right: 25px;
+    }
 }
